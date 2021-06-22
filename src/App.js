@@ -1,6 +1,6 @@
 import Home from "./Home";
-import MovieList from "./components/ProductList";
-import MovieDetail from "./components/ProductDetail";
+import MovieList from "./components/MovieList";
+import MovieDetail from "./components/MovieDetail";
 import { GlobalStyle } from "./styles";
 import { ThemeProvider } from "styled-components";
 import { useState } from "react";

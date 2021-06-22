@@ -8,7 +8,7 @@ const MovieList = (props) => {
   const [query, setQuery] = useState("");
 
   const filterMovies = props.movies.filter((movie) =>
-    movie.name.toLowerCase().includes(query.toLocaleLowerCase())
+    movie.title.toLowerCase().includes(query.toLocaleLowerCase())
   );
 
   const movieList = filterMovies.map((movie) => (
@@ -17,7 +17,7 @@ const MovieList = (props) => {
   return (
     <div>
       <SearchBar setQuery={setQuery} />
-      <ListWrapper>{movietList}</ListWrapper>;
+      <ListWrapper>{movieList}</ListWrapper>;
     </div>
   );
 };
