@@ -20,6 +20,8 @@ export const Logo = styled(Link)`
 `;
 
 export const NavLinkStyled = styled(NavLink)`
+  font-size: 24px;
+  padding-top: 10px;
   margin: 10px;
   &.active {
     color: ${(props) => props.theme.red};
@@ -42,6 +44,9 @@ export const DetailWrapper = styled.div`
   img {
     width: 40%;
     float: left;
+    margin: 20px;
+    border: 10px solid #f1faee;
+    border-radius: 25px;
   }
   p {
     vertical-align: middle;
@@ -65,6 +70,9 @@ export const SearchBarStyled = styled.input`
 `;
 
 export const ShopImage = styled.img`
+  margin-top: 30px;
+  border: 10px solid #f1faee;
+  border-radius: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;

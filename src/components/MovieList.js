@@ -1,4 +1,4 @@
-import movies from "../movies";
+//import movies from "../movies";
 import MovieItem from "./MovieItem";
 import { ListWrapper } from "../styles";
 import { useState } from "react";

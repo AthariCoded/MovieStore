@@ -11,10 +11,10 @@ const MovieDetail = (props) => {
     <DetailWrapper>
       <h1>{movie.title}</h1>
       <img src={movie.poster} alt={movie.title} />
-      <p>{movie.released}</p>
-      <p>{movie.runtime} </p>
-      <p>{movie.genre}</p>
-      <p>{movie.plot} </p>
+      <p>Released: {movie.released}</p>
+      <p>Run Time: {movie.runtime} </p>
+      <p>Genre: {movie.genre}</p>
+      <p>Plot: {movie.plot} </p>
     </DetailWrapper>
   );
 };

@@ -11,13 +11,13 @@ import NavBar from "./components/NavBar";
 
 const theme = {
   light: {
-    mainColor: "grey",
-    backgroundColor: "MistyRose",
+    mainColor: "#003049",
+    backgroundColor: "#669bbc",
     red: "red",
   },
   dark: {
-    mainColor: "MistyRose",
-    backgroundColor: "grey",
+    mainColor: "#669bbc",
+    backgroundColor: "#003049",
     red: "red",
   },
 };
